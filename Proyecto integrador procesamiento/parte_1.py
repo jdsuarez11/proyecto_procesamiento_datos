@@ -5,4 +5,4 @@ dataset = load_dataset("mstz/heart_failure")
 
 data = dataset['train']
 age = np.array(data['age'])
-print(age.mean())
+print(np.mean(age))
